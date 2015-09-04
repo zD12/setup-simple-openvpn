@@ -216,7 +216,7 @@ then
   echo "Using cached external IP address"
 else
   echo "Detecting external IP address"
-  IP=`curl icanhazip.com`
+  IP=`curl ipv4.icanhazip.com`
   echo "$IP" > "$HOME/.my.ip"
 fi
 
